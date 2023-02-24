@@ -1,4 +1,10 @@
-# Getting Started with Create React App
+# React Typescript MobX example
+
+This is a simple example app which helps you to understand how to use React with MobX.
+
+If you are wondering how to track and modify a complex object in your store, take a look at `Store.ts`.
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 

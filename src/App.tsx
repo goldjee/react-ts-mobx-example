@@ -1,26 +1,15 @@
+import { observer } from 'mobx-react-lite';
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import Controller from './components/Controller';
+import View from './components/View';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+const App: React.FC = observer(() => {
+    return (
+        <div className='wrapper'>
+            <Controller />
+            <View />
+        </div>
+    );
+});
 
 export default App;
