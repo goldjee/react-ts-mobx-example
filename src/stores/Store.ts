@@ -9,7 +9,7 @@ class Store {
         makeAutoObservable(this, {}, { autoBind: true });
     }
 
-    @action increment(): void {
+    increment(): void {
         this.counter.increment();
     }
 
